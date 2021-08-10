@@ -20,6 +20,10 @@ Do the following:
    HINT: no function required
 */
 
+let votingAge = 18;
+
+console.log(votingAge >= 18);
+
 /*
 Task 1b - Values
 
@@ -30,7 +34,12 @@ Do the following:
 
    HINT: no function required
 */
+let favSinger = "beyonce";
+let favSong = "sandcastle";
 
+[favSinger, favSong] = [favSong, favSinger];
+
+console.log(favSinger);
 /*
 Task 1c - Convert Strings to Numbers
 
@@ -41,7 +50,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let time = "1999";
+let b = parseInt(time);
+console.log(b);
 /*
 Task 1d - Multiply
  
@@ -51,9 +62,7 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/) {
-  /*add your code here*/
-}
+function multiply(a, b) {}
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
